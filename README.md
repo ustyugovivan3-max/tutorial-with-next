@@ -6,9 +6,10 @@ This project demonstrates how to run a [Next.js](https://nextjs.org) application
 
 This tutorial project shows you how to:
 
-- Set up a Next.js project to work with Deno
-- Use Deno's built-in package management and TypeScript support
-- Develop and run Next.js applications with Deno
+- Set up a Next.js project
+- Run your project on Deno
+- Add a simple backend API route
+- Update the frontend to fetch data from the backend
 - Deploy your Next.js app to Deno Deploy
 
 For the complete step-by-step of this tutorial, visit: [**Next.js Tutorial on Deno Docs**](https://docs.deno.com/examples/next_tutorial/)
