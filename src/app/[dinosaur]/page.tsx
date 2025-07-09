@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Dino } from "../types.ts";
+import { Dino } from "../types";
 import Link from "next/link";
 import styles from "./page.module.css";
 
@@ -22,7 +22,7 @@ export default function Dinosaur({ params }: RouteParams) {
         <main>
             <h1>{dinosaur.name}</h1>
             <p>{dinosaur.description}</p>
-            <Link.default href="/">🠠 Back to all dinosaurs</Link.default>
+            <Link href="/">🠠 Back to all dinosaurs</Link>
         </main>
     );
 }

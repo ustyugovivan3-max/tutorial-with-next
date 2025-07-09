@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Dino } from "./types.ts";
+import { Dino } from "./types";
 import Link from "next/link";
-import styles from "./page.module.css";
 
 export default function Home() {
   const [dinosaurs, setDinosaurs] = useState<Dino[]>([]);
@@ -24,9 +23,9 @@ export default function Home() {
         {dinosaurs.map((dinosaur: Dino) => {
           return (
             <li key={dinosaur.name}>
-              <Link.default href={`/${dinosaur.name.toLowerCase()}`}>
+              <Link href={`/${dinosaur.name.toLowerCase()}`}>
                 {dinosaur.name}
-              </Link.default>
+              </Link>
             </li>
           );
         })}
