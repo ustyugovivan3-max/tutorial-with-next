@@ -2,6 +2,13 @@
 
 This project demonstrates how to run a [Next.js](https://nextjs.org) application using [Deno](https://deno.com). It's a complete tutorial example showing how to set up, develop, and deploy a Next.js app in the Deno runtime environment.
 
+## Make it your own!
+
+You can deploy your own version of this svelte app to Deno Deploy immediately.
+Just click the button to clone and deploy.
+
+[![Deploy on Deno](https://deno.com/button)](https://app.deno.com/new?clone=https://github.com/denoland/tutorial-with-next)
+
 ## About This Tutorial
 
 This tutorial project shows you how to:
