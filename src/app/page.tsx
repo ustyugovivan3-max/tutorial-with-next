@@ -19,17 +19,13 @@ export default function Home() {
     <main>
       <h1>Welcome to the Dinosaur app</h1>
       <p>Click on a dinosaur below to learn more.</p>
-      <ul>
-        {dinosaurs.map((dinosaur: Dino) => {
-          return (
-            <li key={dinosaur.name}>
-              <Link href={`/${dinosaur.name.toLowerCase()}`}>
-                {dinosaur.name}
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
+      {dinosaurs.map((dinosaur: Dino) => {
+        return (
+          <Link key={dinosaur.name} className="btn-primary" href={`/${dinosaur.name.toLowerCase()}`}>
+            {dinosaur.name}
+          </Link>
+        );
+      })}
     </main>
   );
 }
